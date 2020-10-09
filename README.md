@@ -82,4 +82,6 @@ This method allows for the conversion of highresolution images to lower resoluti
 If the midi triggers are not being recorded, there is a chance you are litening on the wrong channel.
 You can use atool such as MIDI-OX to find the correct channel and set the mini_channel variable accordingly. 
 
-   
+# Trigger from DAW
+
+To trigger from a midi-vidi from a DAW, use a virtual midi bus such as LoopBe1, configure a midi out channel to utilize your virtual midi bus and set the mini_channel variable accordingly.
